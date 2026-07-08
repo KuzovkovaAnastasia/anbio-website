@@ -1,81 +1,40 @@
 ---
+title: Главная
+layout: default
 ---
 
-# KuzovkovaAnastasia's Website
+# Российские экспресс-тесты для диагностики патогенов картофеля
 
-An engaging 1-3 sentence description of your lab.
+Быстро. В поле. Без оборудования.
 
-{% include section.html %}
 
-## Highlights
+ООО «АнБио» — российский производитель иммунохроматографических тест-систем для выявления бактериальных и вирусных патогенов картофеля.
 
-{% capture text %}
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Что мы предлагаем
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+<div class="row">
+  <div class="col-md-4">
+    <h3>🔬 4 патогена на одной полоске</h3>
+    <p>Одновременное определение кольцевой гнили, чёрной ножки (2 вида) и бурой гнили.</p>
+  </div>
+  <div class="col-md-4">
+    <h3>⏱ 15 минут</h3>
+    <p>Результат диагностики за 10–15 минут без оборудования.</p>
+  </div>
+  <div class="col-md-4">
+    <h3>💰 В 2–3 раза дешевле</h3>
+    <p>Стоимость анализа одного патогена от 35 рублей.</p>
+  </div>
+</div>
 
-{% endcapture %}
+---
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+## Наши продукты
 
-{% capture text %}
+- **Мульти-тест «ИХА МУЛЬТИ-4-БАКТЕРИИ»** — 4 бактериальных патогена на одной тест-полоске
+- **Моно-тесты** — X, Y, M, S-вирусы картофеля, вирус скручивания листьев
+- **Экспресс-тесты для молока** — контроль антибиотиков (пенициллины, тетрациклины, стрептомицин, левомицетин)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+[Подробнее о продукции →](#)
